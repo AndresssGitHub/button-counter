@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Counter from '../components/vue/Counter.vue';
+---
+
+<Layout title="Welcome">
+	<div class="justify-center h-screen items-center my-80 ml-80">
+		<h1 class="text-6xl text-green-500 font-bold animate-bounce">Hello world!</h1>
+		<Counter client:load/>
+	</div>
+
+<style>
+	
+</style>
